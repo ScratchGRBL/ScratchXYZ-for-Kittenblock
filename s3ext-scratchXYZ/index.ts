@@ -810,7 +810,7 @@ class ScratchXYZ{
         if(!args.CommandSel) return
         switch (args.CommandSel) {
             case EmHelpCommand.Help:
-                this.fs.openSite("https://www.scratchGRBL.com","_blank");
+                this.fs.openSite("https://www.scratchGRBL.com/scratchxyz.html","_blank");
                 break;
             case EmHelpCommand.CancelMotions:
                 this.Machine.ClearCommands();
