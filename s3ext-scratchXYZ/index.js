@@ -1,13 +1,963 @@
-"\x75\x73\x65 \x73\x74\x72\x69\x63\x74";var ZyRyN1 = Scratch["\x41\x72\x67\x75\x6d\x65\x6e\x74\x54\x79\x70\x65"];var Ei_HADX$2 = Scratch["\x42\x6c\x6f\x63\x6b\x54\x79\x70\x65"];var GdFc3 = Scratch["\x66\x6f\x72\x6d\x61\x74\x4d\x65\x73\x73\x61\x67\x65"];function Fmm(ID, tH_gYlieM4) {    return GdFc3({ id: ID, default: tH_gYlieM4 });}function Fm(YI$OQcfR5) {    return GdFc3({ id: YI$OQcfR5, default: YI$OQcfR5 });}var lTuHY$6 = Scratch["\x6c\x6f\x67"];var nthMLG7 = Scratch["\x52\x65\x61\x63\x74"];var Uvvii8 = null;var Crh9 = true;function AlertError(b10, MJgtUYGta11 = null) {    Uvvii8["\x65\x6d\x69\x74"]("\x73\x68\x6f\x77\x41\x6c\x65\x72\x74", {        type: "\x65\x72\x72\x6f\x72",        msg: b10    });    return MJgtUYGta11;}function AlertInfo(NT12, FGtIMom13 = null) {    Uvvii8["\x65\x6d\x69\x74"]("\x73\x68\x6f\x77\x41\x6c\x65\x72\x74", {        type: "\x65\x72\x72\x6f\x72",        msg: NT12    });    return FGtIMom13;}const menuIcon = "\x64\x61\x74\x61\x3a\x69\x6d\x61\x67\x65\x2f\x70\x6e\x67\x3b\x62\x61\x73\x65\x36\x34\x2c\x69\x56\x42\x4f\x52\x77\x30\x4b\x47\x67\x6f\x41\x41\x41\x41\x4e\x53\x55\x68\x45\x55\x67\x41\x41\x41\x42\x51\x41\x41\x41\x41\x55\x43\x41\x59\x41\x41\x41\x43\x4e\x69\x52\x30\x4e\x41\x41\x41\x41\x41\x58\x4e\x53\x52\x30\x49\x41\x72\x73\x34\x63\x36\x51\x41\x41\x41\x41\x52\x6e\x51\x55\x31\x42\x41\x41\x43\x78\x6a\x77\x76\x38\x59\x51\x55\x41\x41\x41\x41\x4a\x63\x45\x68\x5a\x63\x77\x41\x41\x44\x73\x4d\x41\x41\x41\x37\x44\x41\x63\x64\x76\x71\x47\x51\x41\x41\x41\x47\x78\x53\x55\x52\x42\x56\x44\x68\x50\x70\x5a\x54\x4c\x54\x67\x49\x78\x46\x49\x59\x37\x67\x4d\x59\x4c\x36\x6f\x59\x46\x76\x6f\x4a\x62\x46\x6f\x53\x77\x49\x63\x77\x45\x51\x70\x68\x68\x4e\x7a\x79\x41\x61\x33\x64\x75\x54\x58\x67\x43\x6e\x38\x42\x48\x49\x4b\x36\x4d\x78\x6f\x53\x4a\x65\x35\x59\x2b\x68\x62\x71\x54\x65\x41\x47\x6a\x51\x2b\x33\x66\x74\x4f\x56\x30\x6f\x46\x37\x43\x6e\x7a\x54\x39\x5a\x39\x70\x2b\x50\x61\x63\x33\x70\x74\x56\x6f\x4e\x41\x72\x4b\x57\x6a\x36\x4f\x34\x37\x79\x79\x6b\x4b\x65\x4b\x56\x6b\x37\x56\x31\x68\x6a\x57\x36\x56\x54\x33\x6c\x57\x58\x31\x65\x6e\x31\x50\x57\x58\x54\x61\x55\x68\x62\x43\x59\x41\x6f\x77\x62\x63\x49\x58\x6c\x62\x58\x4a\x46\x46\x79\x72\x31\x62\x61\x56\x46\x56\x47\x79\x50\x49\x72\x36\x74\x4e\x72\x6f\x6d\x44\x67\x2b\x32\x6c\x54\x57\x44\x52\x4f\x79\x49\x6e\x50\x42\x67\x69\x41\x34\x55\x4e\x61\x64\x70\x6f\x70\x71\x4a\x61\x7a\x58\x57\x34\x79\x78\x59\x44\x54\x6c\x62\x47\x51\x30\x54\x54\x6b\x52\x35\x78\x4b\x4f\x79\x4b\x49\x6f\x36\x73\x4e\x54\x6d\x4a\x58\x79\x72\x32\x6b\x43\x64\x76\x2f\x43\x43\x2b\x4d\x6e\x4c\x6d\x41\x70\x2f\x6c\x4e\x59\x4e\x6b\x6f\x72\x7a\x65\x77\x47\x68\x47\x45\x34\x31\x7a\x44\x55\x4b\x45\x35\x59\x35\x70\x77\x74\x52\x79\x62\x55\x61\x72\x56\x32\x77\x79\x67\x30\x73\x4d\x4c\x34\x6b\x63\x73\x4f\x51\x74\x6d\x55\x7a\x53\x46\x46\x56\x4d\x4d\x68\x51\x38\x63\x35\x76\x67\x45\x72\x6c\x55\x72\x76\x6e\x75\x65\x56\x30\x2f\x54\x7a\x66\x47\x65\x6e\x65\x44\x79\x64\x7a\x54\x35\x75\x7a\x79\x37\x59\x56\x37\x55\x73\x78\x77\x47\x57\x4a\x4d\x6b\x6b\x36\x36\x47\x6c\x44\x65\x43\x44\x51\x53\x34\x64\x2b\x64\x4d\x49\x6b\x51\x6c\x31\x75\x39\x33\x6e\x64\x72\x74\x39\x4b\x4e\x4d\x58\x63\x71\x59\x73\x68\x4e\x6d\x73\x4e\x41\x48\x6a\x69\x63\x2f\x66\x62\x6e\x79\x4f\x57\x6d\x79\x43\x63\x38\x32\x6f\x72\x31\x51\x71\x47\x36\x68\x4e\x32\x6e\x72\x4e\x30\x6c\x48\x7a\x52\x4d\x4e\x51\x4a\x6c\x66\x2b\x44\x46\x43\x30\x75\x57\x44\x30\x6b\x45\x74\x70\x47\x49\x52\x47\x66\x68\x66\x30\x41\x58\x75\x39\x39\x6c\x64\x75\x77\x49\x38\x77\x65\x6d\x78\x77\x41\x33\x51\x30\x44\x35\x66\x4e\x55\x2f\x6c\x54\x36\x49\x38\x77\x75\x51\x39\x6d\x2f\x57\x69\x6a\x43\x30\x41\x39\x76\x58\x34\x30\x51\x36\x6e\x2f\x77\x6d\x6a\x2f\x4a\x5a\x68\x49\x32\x62\x78\x6e\x61\x38\x49\x38\x77\x4d\x7a\x6a\x73\x43\x59\x4d\x53\x37\x64\x34\x7a\x65\x6c\x4c\x34\x66\x4c\x36\x6e\x43\x6e\x52\x4b\x77\x75\x51\x4b\x49\x78\x39\x41\x37\x76\x42\x77\x6c\x36\x55\x43\x73\x58\x75\x41\x41\x41\x41\x41\x45\x6c\x46\x54\x6b\x53\x75\x51\x6d\x43\x43";const blockIcon = menuIcon;function getEnum(FY14, F$WA15) {    return FY14[F$WA15];}var qSOl16;(function (zM17) {    zM17[zM17["\x4e\x6f\x74\x68\x69\x6e\x67"] = 0] = "\x4e\x6f\x74\x68\x69\x6e\x67";    zM17[zM17["\x6f\x6b"] = 1] = "\x6f\x6b";    zM17[zM17["\x65\x72\x72\x6f\x72"] = 2] = "\x65\x72\x72\x6f\x72";    zM17[zM17["\x57\x61\x69\x74\x53\x6f\x6d\x65\x54\x69\x6d\x65"] = 3] = "\x57\x61\x69\x74\x53\x6f\x6d\x65\x54\x69\x6d\x65";})(qSOl16 || (qSOl16 = {}));var NtfDJDZ18;(function (R19) {    R19["\x47\x30"] = "\x47\x30";    R19["\x47\x31"] = "\x47\x31";    R19["\x24\x4a\x3d"] = "\x24\x4a\x3d";})(NtfDJDZ18 || (NtfDJDZ18 = {}));var caH$GdIZ20;(function (G21) {    G21["\x44\x65\x66\x61\x75\x6c\x74"] = "\x44\x65\x66\x61\x75\x6c\x74";    G21["\x47\x39\x30"] = "\x47\x39\x30";    G21["\x47\x39\x31"] = "\x47\x39\x31";})(caH$GdIZ20 || (caH$GdIZ20 = {}));var zCzUfLBMH22;(function (jEgueC23) {    jEgueC23[jEgueC23["\x58"] = 0] = "\x58";    jEgueC23[jEgueC23["\x59"] = 1] = "\x59";    jEgueC23[jEgueC23["\x5a"] = 2] = "\x5a";    jEgueC23[jEgueC23["\x41"] = 3] = "\x41";    jEgueC23[jEgueC23["\x42"] = 4] = "\x42";})(zCzUfLBMH22 || (zCzUfLBMH22 = {}));var eNSbKbX24;(function (yKQKBwHK25) {    yKQKBwHK25[yKQKBwHK25["\x44\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64"] = 0] = "\x44\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64";    yKQKBwHK25[yKQKBwHK25["\x4e\x6f\x6e\x65\x47\x52\x42\x4c\x31\x5f\x31"] = 1] = "\x4e\x6f\x6e\x65\x47\x52\x42\x4c\x31\x5f\x31";    yKQKBwHK25[yKQKBwHK25["\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64"] = 2] = "\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64";    yKQKBwHK25[yKQKBwHK25["\x49\x64\x6c\x65"] = 3] = "\x49\x64\x6c\x65";    yKQKBwHK25[yKQKBwHK25["\x4a\x6f\x67"] = 4] = "\x4a\x6f\x67";    yKQKBwHK25[yKQKBwHK25["\x48\x6f\x6d\x65"] = 5] = "\x48\x6f\x6d\x65";    yKQKBwHK25[yKQKBwHK25["\x52\x75\x6e"] = 6] = "\x52\x75\x6e";    yKQKBwHK25[yKQKBwHK25["\x48\x6f\x6c\x64"] = 7] = "\x48\x6f\x6c\x64";    yKQKBwHK25[yKQKBwHK25["\x41\x6c\x61\x72\x6d"] = 8] = "\x41\x6c\x61\x72\x6d";    yKQKBwHK25[yKQKBwHK25["\x43\x68\x65\x63\x6b"] = 9] = "\x43\x68\x65\x63\x6b";    yKQKBwHK25[yKQKBwHK25["\x44\x6f\x6f\x72"] = 10] = "\x44\x6f\x6f\x72";    yKQKBwHK25[yKQKBwHK25["\x53\x6c\x65\x65\x70"] = 11] = "\x53\x6c\x65\x65\x70";})(eNSbKbX24 || (eNSbKbX24 = {}));var zTh_hWrE26;(function (i27) {    i27["\x48\x65\x6c\x70"] = "\x48\x65\x6c\x70";    i27["\x43\x61\x6e\x63\x65\x6c\x4d\x6f\x74\x69\x6f\x6e\x73"] = "\x43\x61\x6e\x63\x65\x6c\x4d\x6f\x74\x69\x6f\x6e\x73";})(zTh_hWrE26 || (zTh_hWrE26 = {}));var lhhMO28;(function (Xsli29) {    Xsli29["\x57\x61\x69\x74"] = "\x57\x61\x69\x74";    Xsli29["\x43\x6f\x64\x65"] = "\x43\x6f\x64\x65";})(lhhMO28 || (lhhMO28 = {}));class Axis {    constructor(Nj_ccHVs30 = zCzUfLBMH22["\x58"], value = 0) {        this["\x41\x78\x69\x73"] = zCzUfLBMH22["\x58"];        this["\x56\x61\x6c\x75\x65"] = 0;        this["\x41\x78\x69\x73"] = Nj_ccHVs30;        this["\x56\x61\x6c\x75\x65"] = value;    }    get AxiesName() {        return ImEnumAxis["\x4e\x61\x6d\x65\x73"][this["\x41\x78\x69\x73"]];    }    set AxiesName(name) {        this["\x41\x78\x69\x73"] = ImEnumAxis["\x41\x78\x69\x73"](name);    }    get Gcode() {        if (this["\x56\x61\x6c\x75\x65"] != null) {            return ImEnumAxis["\x4e\x61\x6d\x65"](this["\x41\x78\x69\x73"]) + this["\x56\x61\x6c\x75\x65"]["\x74\x6f\x53\x74\x72\x69\x6e\x67"]();        }        return '';    }    get Copy() {        return new Axis(this["\x41\x78\x69\x73"], this["\x56\x61\x6c\x75\x65"]);    }}class ImEnumAxis {    static Name(axies) {        if (axies > -1 && axies < this["\x41\x78\x69\x73\x65\x73"]["\x6c\x65\x6e\x67\x74\x68"]) {            return ImEnumAxis["\x4e\x61\x6d\x65\x73"][axies];        }        return null;    }    static Axis(name) {        return zCzUfLBMH22[name];    }    static CreateMenu() {        var sJW31 = [];        for (var CYRlU32 = 0; CYRlU32 < this["\x43\x6f\x75\x6e\x74"]; CYRlU32++) {            sJW31["\x70\x75\x73\x68"]({                text: this["\x4e\x61\x6d\x65\x73"][CYRlU32], value: this["\x4e\x61\x6d\x65\x73"][CYRlU32]            });        }        return sJW31;    }}ImEnumAxis["\x43\x6f\x75\x6e\x74"] = window["\x4f\x62\x6a\x65\x63\x74"]["\x6b\x65\x79\x73"](zCzUfLBMH22)["\x6c\x65\x6e\x67\x74\x68"] / 2;ImEnumAxis["\x4e\x61\x6d\x65\x73"] = window["\x4f\x62\x6a\x65\x63\x74"]["\x6b\x65\x79\x73"](zCzUfLBMH22)["\x6d\x61\x70"]((k) => zCzUfLBMH22[k])["\x66\x69\x6c\x74\x65\x72"]((v) => typeof v === '\x73\x74\x72\x69\x6e\x67');ImEnumAxis["\x41\x78\x69\x73\x65\x73"] = window["\x4f\x62\x6a\x65\x63\x74"]["\x6b\x65\x79\x73"](zCzUfLBMH22)["\x6d\x61\x70"]((k) => zCzUfLBMH22[k])["\x66\x69\x6c\x74\x65\x72"]((v) => typeof v === '\x6e\x75\x6d\x62\x65\x72')["\x6d\x61\x70"](window["\x4e\x75\x6d\x62\x65\x72"]);ImEnumAxis["\x4d\x65\x6e\x75"] = ImEnumAxis["\x43\x72\x65\x61\x74\x65\x4d\x65\x6e\x75"]();class GPoint {    constructor(DuE33 = false) {        this["\x41\x78\x69\x73\x65\x73"] = new window["\x41\x72\x72\x61\x79"]();        this["\x47"] = NtfDJDZ18["\x47\x30"];        this["\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65"] = caH$GdIZ20["\x47\x39\x30"];        this["\x4f\x74\x68\x65\x72\x73"] = null;        this["\x46\x65\x65\x64"] = null;        this["\x45\x72\x72\x6f\x72"] = null;        this["\x67\x63\x6f\x64\x65"] = null;        if (DuE33)            this["\x41\x78\x69\x73\x69\x7a\x65"]();    }    get IsError() {        return this["\x45\x72\x72\x6f\x72"] != null;    }    Axis(enAxis, force = true) {        for (let v of this["\x41\x78\x69\x73\x65\x73"]) {            if (v["\x41\x78\x69\x73"] == enAxis)                return v;        }        if (!force)            return null;        var GC34 = new Axis(enAxis);        this["\x41\x78\x69\x73\x65\x73"]["\x70\x75\x73\x68"](GC34);        return GC34;    }    Axis_ByName(axiesName, force = true) {        var Akw35 = ImEnumAxis["\x41\x78\x69\x73"](axiesName);        return this["\x41\x78\x69\x73"](Akw35, force);    }    Axisize() {        this["\x41\x78\x69\x73\x65\x73"]["\x6c\x65\x6e\x67\x74\x68"] = 0;        for (var oJlcUzl36 = 0; oJlcUzl36 < ImEnumAxis["\x43\x6f\x75\x6e\x74"]; oJlcUzl36++) {            this["\x41\x78\x69\x73\x65\x73"]["\x70\x75\x73\x68"](new Axis(oJlcUzl36, 0));        }    }    get Copy() {        var pTFh37 = new GPoint;        for (let v of this["\x41\x78\x69\x73\x65\x73"]) {            pTFh37["\x41\x78\x69\x73\x65\x73"]["\x70\x75\x73\x68"](v["\x43\x6f\x70\x79"]);        }        return pTFh37;    }    set Gcode(gcode) {        this["\x67\x63\x6f\x64\x65"] = gcode;    }    get Gcode() {        if (this["\x67\x63\x6f\x64\x65"] != null)            return this["\x67\x63\x6f\x64\x65"];        var DwSBsNO38 = '';        for (let A of this["\x41\x78\x69\x73\x65\x73"])            DwSBsNO38 += ' ' + A["\x47\x63\x6f\x64\x65"];        if (this["\x46\x65\x65\x64"] != null && this["\x46\x65\x65\x64"] > 0)            DwSBsNO38 += ' \x46' + this["\x46\x65\x65\x64"]["\x74\x6f\x53\x74\x72\x69\x6e\x67"]();        if (this["\x47"] == NtfDJDZ18['\x24\x4a\x3d'])            DwSBsNO38 = this["\x47"] + DwSBsNO38["\x73\x75\x62\x73\x74\x72\x69\x6e\x67"](1);        else            DwSBsNO38 = this["\x47"] + DwSBsNO38;        if (this["\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65"] != caH$GdIZ20["\x44\x65\x66\x61\x75\x6c\x74"])            return DwSBsNO38 + ' ' + this["\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65"];        return DwSBsNO38;    }    ParseXYZcode(text) {        this["\x67\x63\x6f\x64\x65"] = text;        this["\x41\x78\x69\x73\x65\x73"]["\x6c\x65\x6e\x67\x74\x68"] = 0;        if (text == null)            return;        var tcclH39 = text["\x73\x70\x6c\x69\x74"](' ');        if (tcclH39["\x6c\x65\x6e\x67\x74\x68"] > 1) {            this["\x47"] = tcclH39[0];            for (let i = 0; i < tcclH39["\x6c\x65\x6e\x67\x74\x68"] - 1; i++) {                var FqsS40 = ImEnumAxis["\x41\x78\x69\x73"](tcclH39[i]["\x63\x68\x61\x72\x41\x74"](0));                if (FqsS40) {                    var GGkV41 = new Axis(FqsS40, window["\x70\x61\x72\x73\x65\x46\x6c\x6f\x61\x74"](lns[i]["\x73\x75\x62\x73\x74\x72\x69\x6e\x67"](1)));                    this["\x41\x78\x69\x73\x65\x73"]["\x70\x75\x73\x68"](GGkV41);                }                else {                    if (this["\x4f\x74\x68\x65\x72\x73"] = null)                        this["\x4f\x74\x68\x65\x72\x73"] = tcclH39[i];                    else                        this["\x4f\x74\x68\x65\x72\x73"] += " " + tcclH39[i];                }            }        }    }    ParseArgs(args) {        args["\x56\x61\x6c\x69\x64"] = false;        this["\x47"] = args["\x47\x54\x79\x70\x65"];        if (!this["\x47"])            this["\x47"] = NtfDJDZ18['\x24\x4a\x3d'];        this["\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65"] = args["\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65"];        this["\x46\x65\x65\x64"] = args["\x46\x65\x65\x64"];        if (this["\x47"] == NtfDJDZ18['\x24\x4a\x3d'] || this["\x47"] == NtfDJDZ18["\x47\x31"]) {            if (!args["\x46\x65\x65\x64"] || args["\x46\x65\x65\x64"] < 1) {                this["\x45\x72\x72\x6f\x72"] = "\x24\x4a\x3d \x6f\x72 \x47\x31 \x63\x6f\x6d\x6d\x61\x6e\x64 \x6e\x65\x65\x64 \x46\x65\x65\x64";            }        }        for (var yLoc42 = 0; yLoc42 < ImEnumAxis["\x43\x6f\x75\x6e\x74"]; yLoc42++) {            var yl43;            window["\x65\x76\x61\x6c"]("yl43 = args.Pos" + yLoc42["\x74\x6f\x53\x74\x72\x69\x6e\x67"]());            if (yl43 != '') {                this["\x41\x78\x69\x73"](yLoc42)["\x56\x61\x6c\x75\x65"] = window["\x70\x61\x72\x73\x65\x46\x6c\x6f\x61\x74"](yl43);                args["\x56\x61\x6c\x69\x64"] = true;            }        }        this["\x67\x63\x6f\x64\x65"] = this["\x47\x63\x6f\x64\x65"];        return args["\x56\x61\x6c\x69\x64"];    }}class Command {    constructor(text = null) {        this["\x54\x65\x78\x74"] = null;        this["\x45\x63\x68\x6f\x65\x64"] = false;        this["\x45\x63\x68\x6f\x54\x79\x70\x65"] = qSOl16["\x6f\x6b"];        this["\x45\x63\x68\x6f\x65\x73"] = new window["\x41\x72\x72\x61\x79"]();        this["\x54\x69\x6d\x65\x54\x6f\x45\x63\x68\x6f"] = 500;        this["\x52\x65\x70\x6f\x72\x74\x65\x72"] = null;        this["\x52\x65\x73\x75\x6c\x74"] = null;        if (text == null)            return;        this["\x54\x65\x78\x74"] = text;    }    get ToCom() { return this["\x54\x65\x78\x74"]; }    Info() { console["\x69\x6e\x66\x6f"]("\x43\x6f\x6d\x6d\x61\x6e\x64\x3a ", this["\x54\x65\x78\x74"], typeof this); }    OnMessaged(line) { }    Message(line) { this["\x45\x63\x68\x6f\x65\x73"]["\x70\x75\x73\x68"](line); this["\x4f\x6e\x4d\x65\x73\x73\x61\x67\x65\x64"](line); }    OnEchoed() { }    Echo(reportIt = true) {        this["\x45\x63\x68\x6f\x65\x64"] = true;        this["\x4f\x6e\x45\x63\x68\x6f\x65\x64"]();        if (Crh9)            console["\x69\x6e\x66\x6f"](this["\x54\x6f\x43\x6f\x6d"], " \x3e\x3e ", this["\x4f\x75\x74\x70\x75\x74\x45\x63\x68\x6f\x65\x73\x54\x6f\x43\x6f\x6e\x73\x6f\x6c\x65"]());        if (reportIt)            this["\x52\x65\x70\x6f\x72\x74"]();    }    OutputEchoesToConsole() {        if (this["\x52\x65\x73\x75\x6c\x74"] == null) {            return this["\x45\x63\x68\x6f\x65\x73"]["\x6a\x6f\x69\x6e"](" \x3e ");        }        else {            return this["\x52\x65\x73\x75\x6c\x74"], this["\x45\x63\x68\x6f\x65\x73"]["\x6a\x6f\x69\x6e"](" \x3e ");        }    }    Report(force = false) {        if (this["\x52\x65\x70\x6f\x72\x74\x65\x72"]) {            this["\x52\x65\x70\x6f\x72\x74\x65\x72"](this["\x52\x65\x73\x75\x6c\x74"]);            this["\x52\x65\x70\x6f\x72\x74\x65\x72"] = null;        }    }    OnTimeOut() { }}class GCommand extends Command {    constructor(c$v44 = null) {        super(c$v44);        this["\x47\x50\x6f\x69\x6e\x74"] = new GPoint();    }    get ToCom() {        if (this["\x54\x65\x78\x74"] != null) {            return this["\x54\x65\x78\x74"];        }        else {            return this["\x47\x50\x6f\x69\x6e\x74"]["\x47\x63\x6f\x64\x65"];        }    }}class GWaitCommand extends GCommand {    constructor() {        super('\x3f');        this["\x49\x6e\x74\x65\x72\x76\x61\x6c"] = 50;        this["\x49\x64\x6c\x65"] = false;    }    OnMessaged(line) {        if (line["\x73\x74\x61\x72\x74\x73\x57\x69\x74\x68"]("\x3c")) {            this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x50\x61\x72\x73\x65"](line);            if (this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x53\x74\x61\x74\x65"] == eNSbKbX24["\x49\x64\x6c\x65"] || this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x53\x74\x61\x74\x65"] == eNSbKbX24["\x53\x6c\x65\x65\x70"]) {                this["\x49\x64\x6c\x65"] = true;                this["\x52\x65\x73\x75\x6c\x74"] = 0;            }        }    }    OutputEchoesToConsole() {        if (this["\x49\x64\x6c\x65"]) {            return "\x49\x64\x6c\x65";        }        else            return "\x77\x61\x69\x74\x69\x6e\x67";    }    Report(force = false) {        if (this["\x49\x64\x6c\x65"] || force) {            if (this["\x57\x61\x69\x74\x46\x6f\x72"])                this["\x52\x65\x73\x75\x6c\x74"] = this["\x57\x61\x69\x74\x46\x6f\x72"]["\x52\x65\x73\x75\x6c\x74"];            super["\x52\x65\x70\x6f\x72\x74"]();        }    }}class MachineStatus {    constructor() {        this["\x4c\x69\x6e\x65"] = "";        this["\x50\x6f\x73\x69\x74\x69\x6f\x6e"] = new GPoint(true);        this["\x57\x50\x6f\x73\x69\x74\x69\x6f\x6e"] = new GPoint(true);        this["\x4f\x56\x50\x6f\x73\x69\x74\x69\x6f\x6e"] = new GPoint(true);        this["\x46\x65\x65\x64\x30"] = 0;        this["\x46\x65\x65\x64\x31"] = 1;        this["\x53\x74\x61\x74\x65"] = eNSbKbX24["\x49\x64\x6c\x65"];    }    get Name() { return getEnum(eNSbKbX24, this["\x53\x74\x61\x74\x65"]); }    get IsIdle() { return this["\x53\x74\x61\x74\x65"] == eNSbKbX24["\x49\x64\x6c\x65"]; }    Parse(line) {        this["\x4c\x69\x6e\x65"] = line;        var GwAtbfq45 = line["\x73\x75\x62\x73\x74\x72\x69\x6e\x67"](1, CAXgIqbHs46["\x6c\x65\x6e\x67\x74\x68"] - 2)["\x73\x70\x6c\x69\x74"]("\x7c");        var VJCC47 = GwAtbfq45[1]["\x73\x75\x62\x73\x74\x72\x69\x6e\x67"](GwAtbfq45[1]["\x69\x6e\x64\x65\x78\x4f\x66"]('\x3a') + 1)["\x73\x70\x6c\x69\x74"]('\x2c');        this["\x53\x74\x61\x74\x65"] = eNSbKbX24[GwAtbfq45[0]];        for (var u48 = 0; u48 < ImEnumAxis["\x43\x6f\x75\x6e\x74"]; u48++) {            this["\x50\x6f\x73\x69\x74\x69\x6f\x6e"]["\x41\x78\x69\x73\x65\x73"][u48]["\x56\x61\x6c\x75\x65"] = window["\x70\x61\x72\x73\x65\x46\x6c\x6f\x61\x74"](VJCC47[u48]);        }        if (GwAtbfq45["\x6c\x65\x6e\x67\x74\x68"] > 2) {            var wOO49 = GwAtbfq45[2]["\x73\x70\x6c\x69\x74"]('\x3a')[1]["\x73\x70\x6c\x69\x74"]('\x2c');            this["\x46\x65\x65\x64\x30"] = window["\x70\x61\x72\x73\x65\x49\x6e\x74"](wOO49[0]);            if (wOO49["\x6c\x65\x6e\x67\x74\x68"] > 1)                this["\x46\x65\x65\x64\x31"] = window["\x70\x61\x72\x73\x65\x49\x6e\x74"](wOO49[1]);        }        if (GwAtbfq45["\x6c\x65\x6e\x67\x74\x68"] > 3) {            var fweYZCsV50 = GwAtbfq45[3]["\x73\x70\x6c\x69\x74"]('\x3a');            var H51 = this["\x57\x50\x6f\x73\x69\x74\x69\x6f\x6e"];            if (fweYZCsV50[0] == '\x4f\x56')                H51 = this["\x4f\x56\x50\x6f\x73\x69\x74\x69\x6f\x6e"];            var pR$Uls_kA52 = fweYZCsV50[1]["\x73\x70\x6c\x69\x74"]('\x2c');            for (var wcuvNu53 = 0; wcuvNu53 < pR$Uls_kA52["\x6c\x65\x6e\x67\x74\x68"]; wcuvNu53++) {                H51["\x41\x78\x69\x73\x65\x73"][wcuvNu53]["\x56\x61\x6c\x75\x65"] = window["\x70\x61\x72\x73\x65\x46\x6c\x6f\x61\x74"](pR$Uls_kA52[wcuvNu53]);            }        }    }    AxisValue(AxiesName) {        var OasCmK54 = this["\x50\x6f\x73\x69\x74\x69\x6f\x6e"]["\x41\x78\x69\x73\x5f\x42\x79\x4e\x61\x6d\x65"](AxiesName, false);        if (OasCmK54)            return OasCmK54["\x56\x61\x6c\x75\x65"];        return 0;    }}class Machine {    constructor() {        this["\x56\x65\x72\x73\x69\x6f\x6e"] = '';        this["\x4d\x53\x47"] = '';        this["\x4e\x30"] = '';        this["\x4e\x31"] = '';        this["\x49\x6e\x66\x6f\x6d\x61\x74\x69\x6f\x6e"] = '';        this["\x44\x65\x66\x61\x75\x6c\x74\x46\x65\x65\x64"] = 5000;        this["\x44\x65\x66\x61\x75\x6c\x74\x49\x64\x6c\x65\x43\x68\x65\x63\x6b\x49\x6e\x74\x65\x72\x76\x61\x6c"] = 100;        this["\x53\x74\x61\x74\x75\x73"] = new MachineStatus();        this["\x43\x6f\x6d\x6d\x61\x6e\x64\x73"] = new window["\x41\x72\x72\x61\x79"]();        this["\x47\x43\x6f\x6d\x6d\x61\x6e\x64\x73"] = new window["\x41\x72\x72\x61\x79"]();        this["\x52\x75\x6e\x65\x64\x43\x6f\x6d\x6d\x61\x6e\x64\x43\x6f\x75\x6e\x74"] = 0;        this["\x4c\x61\x73\x74"] = null;        this["\x63\x75\x72\x72\x65\x6e\x74"] = null;        this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"] = null;        this["\x43\x61\x6e\x63\x65\x6c\x6c\x69\x6e\x67\x4d\x6f\x74\x69\x6f\x6e"] = true;    }    get Connected() { return this["\x53\x74\x61\x74\x75\x73"]["\x53\x74\x61\x74\x65"] > eNSbKbX24["\x44\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64"]; }    get Current() { return this["\x63\x75\x72\x72\x65\x6e\x74"]; }    set Current(cmd) {        this["\x4c\x61\x73\x74"] = this["\x63\x75\x72\x72\x65\x6e\x74"];        this["\x63\x75\x72\x72\x65\x6e\x74"] = cmd;    }    Com_Write(data) { }    Com_Read(line) {        if (this["\x52\x75\x6e\x65\x64\x43\x6f\x6d\x6d\x61\x6e\x64\x43\x6f\x75\x6e\x74"] == 0) {            if (this["\x56\x65\x72\x73\x69\x6f\x6e"] == '') {                this["\x56\x65\x72\x73\x69\x6f\x6e"] = line;                if (Crh9)                    console["\x69\x6e\x66\x6f"](line);                return;            }            if (line["\x73\x74\x61\x72\x74\x73\x57\x69\x74\x68"]('\x5b\x4d\x53\x47\x3a')) {                this["\x4d\x53\x47"] = line;                if (Crh9)                    console["\x69\x6e\x66\x6f"](line);                return;            }            if (this["\x4e\x30"] == '')                this["\x4e\x30"] = line["\x73\x75\x62\x73\x74\x72\x69\x6e\x67"](1, line["\x6c\x65\x6e\x67\x74\x68"] - 3);            else                this["\x4e\x31"] = line["\x73\x75\x62\x73\x74\x72\x69\x6e\x67"](1, line["\x6c\x65\x6e\x67\x74\x68"] - 3);            if (Crh9)                console["\x69\x6e\x66\x6f"](line);            return;        }        if (!this["\x43\x75\x72\x72\x65\x6e\x74"]) {            if (Crh9)                console["\x69\x6e\x66\x6f"](line);        }        else {            switch (this["\x43\x75\x72\x72\x65\x6e\x74"]["\x45\x63\x68\x6f\x54\x79\x70\x65"]) {                case qSOl16["\x6f\x6b"]:                    if (line == "\x6f\x6b") {                        this["\x43\x75\x72\x72\x65\x6e\x74"]["\x45\x63\x68\x6f"]();                        this["\x54\x72\x79\x50\x6f\x70\x57\x72\x69\x74\x65"]();                        return;                    }                    else if (line["\x73\x74\x61\x72\x74\x73\x57\x69\x74\x68"]("\x65\x72\x72\x6f\x72")) {                        AlertError(line);                        console["\x65\x72\x72\x6f\x72"](line);                        this["\x63\x75\x72\x72\x65\x6e\x74"]["\x49\x6e\x66\x6f"]();                        this["\x43\x75\x72\x72\x65\x6e\x74"]["\x45\x63\x68\x6f"]();                        this["\x43\x75\x72\x72\x65\x6e\x74"] = null;                        this["\x54\x72\x79\x50\x6f\x70\x57\x72\x69\x74\x65"]();                        return;                    }                    break;                default:                    break;            }            this["\x43\x75\x72\x72\x65\x6e\x74"]["\x4d\x65\x73\x73\x61\x67\x65"](line);        }    }    TryPop() {        if (this["\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]["\x6c\x65\x6e\x67\x74\x68"] > 0) {            return this["\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]["\x73\x68\x69\x66\x74"]();        }        if (this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"]) {            if (this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"]["\x45\x63\x68\x6f\x65\x64"]) {                if (this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"]["\x49\x64\x6c\x65"]) {                    this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"] = null;                }                else {                    this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"]["\x45\x63\x68\x6f\x65\x64"] = false;                    var ZtbhQt55 = this;                    var hYZNTbLVZ56 = this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"];                    setTimeout(function () {                        if (!hYZNTbLVZ56["\x49\x64\x6c\x65"])                            ZtbhQt55["\x50\x75\x73\x68"](hYZNTbLVZ56);                    }, this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"]["\x49\x6e\x74\x65\x72\x76\x61\x6c"]);                    return;                }            }            else {                return;            }        }        if (this["\x47\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]["\x6c\x65\x6e\x67\x74\x68"] > 0) {            var bsYBX57 = this["\x47\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]["\x73\x68\x69\x66\x74"]();            if (bsYBX57 instanceof GWaitCommand) {                this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"] = bsYBX57;                return bsYBX57;            }            else {                return bsYBX57;            }        }        return null;    }    TryPopWrite() {        if (this["\x43\x75\x72\x72\x65\x6e\x74"] == null) {            var th58 = this["\x54\x72\x79\x50\x6f\x70"]();            if (th58 != null) {                this["\x52\x75\x6e\x65\x64\x43\x6f\x6d\x6d\x61\x6e\x64\x43\x6f\x75\x6e\x74"]++;                this["\x43\x75\x72\x72\x65\x6e\x74"] = th58;                this["\x43\x6f\x6d\x5f\x57\x72\x69\x74\x65"](this["\x43\x75\x72\x72\x65\x6e\x74"]["\x54\x6f\x43\x6f\x6d"]);                switch (this["\x43\x75\x72\x72\x65\x6e\x74"]["\x45\x63\x68\x6f\x54\x79\x70\x65"]) {                    case qSOl16["\x4e\x6f\x74\x68\x69\x6e\x67"]:                        this["\x43\x75\x72\x72\x65\x6e\x74"]["\x45\x63\x68\x6f"]();                        this["\x43\x75\x72\x72\x65\x6e\x74"] = null;                        this["\x54\x72\x79\x50\x6f\x70\x57\x72\x69\x74\x65"]();                        break;                    case qSOl16["\x57\x61\x69\x74\x53\x6f\x6d\x65\x54\x69\x6d\x65"]:                        var NMgC59 = this;                        setTimeout(function () {                            NMgC59["\x63\x75\x72\x72\x65\x6e\x74"]["\x4f\x6e\x54\x69\x6d\x65\x4f\x75\x74"]();                            NMgC59["\x43\x75\x72\x72\x65\x6e\x74"]["\x45\x63\x68\x6f"]();                            NMgC59["\x43\x75\x72\x72\x65\x6e\x74"] = null;                            NMgC59["\x54\x72\x79\x50\x6f\x70\x57\x72\x69\x74\x65"]();                        }, NMgC59["\x43\x75\x72\x72\x65\x6e\x74"]["\x54\x69\x6d\x65\x54\x6f\x45\x63\x68\x6f"]);                        break;                    default:                        break;                }            }        }        else if (this["\x43\x75\x72\x72\x65\x6e\x74"]["\x45\x63\x68\x6f\x65\x64"]) {            this["\x43\x75\x72\x72\x65\x6e\x74"] = null;            this["\x54\x72\x79\x50\x6f\x70\x57\x72\x69\x74\x65"]();        }    }    ClearCommands() {        for (let cmd of this["\x47\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]) {            if (cmd)                cmd["\x52\x65\x70\x6f\x72\x74"](true);        }        this["\x47\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]["\x6c\x65\x6e\x67\x74\x68"] = 0;        for (let cmd of this["\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]) {            if (cmd)                cmd["\x52\x65\x70\x6f\x72\x74"](true);        }        this["\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]["\x6c\x65\x6e\x67\x74\x68"] = 0;        if (this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"]) {            this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"]["\x49\x64\x6c\x65"] = true;            this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"]["\x52\x65\x70\x6f\x72\x74"](true);            this["\x43\x75\x72\x72\x65\x6e\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"] = null;        }        if (this["\x63\x75\x72\x72\x65\x6e\x74"]) {            this["\x63\x75\x72\x72\x65\x6e\x74"]["\x52\x65\x70\x6f\x72\x74"](true);            this["\x63\x75\x72\x72\x65\x6e\x74"] = null;        }        this["\x52\x75\x6e\x65\x64\x43\x6f\x6d\x6d\x61\x6e\x64\x43\x6f\x75\x6e\x74"] = 0;    }    Connect() {        if (this["\x56\x65\x72\x73\x69\x6f\x6e"]["\x69\x6e\x64\x65\x78\x4f\x66"]("\x47\x72\x62\x6c \x31\x2e\x31") < 0) {            this["\x53\x74\x61\x74\x75\x73"]["\x53\x74\x61\x74\x65"] = eNSbKbX24["\x4e\x6f\x6e\x65\x47\x52\x42\x4c\x31\x5f\x31"];            return;        }        this["\x53\x74\x61\x74\x75\x73"]["\x53\x74\x61\x74\x65"] = eNSbKbX24["\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64"];        this["\x50\x75\x73\x68\x5f\x46\x6f\x72\x5f\x49\x6e\x66\x6f\x72\x6d\x61\x74\x69\x6f\x6e"]();        if (this["\x4d\x53\x47"]["\x69\x6e\x64\x65\x78\x4f\x66"]("\x74\x6f \x75\x6e\x6c\x6f\x63\x6b") > 0) {            this["\x50\x75\x73\x68"](new Command("\x24\x58"));            this["\x4d\x53\x47"] = '';        }    }    Disconnect() {        this["\x56\x65\x72\x73\x69\x6f\x6e"] = '';        this["\x4d\x53\x47"] = '';        this["\x49\x6e\x66\x6f\x6d\x61\x74\x69\x6f\x6e"] = '';        this["\x4e\x30"] = '';        this["\x4e\x31"] = '';        this["\x53\x74\x61\x74\x75\x73"]["\x53\x74\x61\x74\x65"] = eNSbKbX24["\x44\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64"];        this["\x43\x6c\x65\x61\x72\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]();    }    Push(cmd) {        this["\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]["\x70\x75\x73\x68"](cmd);        this["\x54\x72\x79\x50\x6f\x70\x57\x72\x69\x74\x65"]();    }    PushG(gcmd) {        this["\x47\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]["\x70\x75\x73\x68"](gcmd);        this["\x54\x72\x79\x50\x6f\x70\x57\x72\x69\x74\x65"]();    }    GetWaitCommand(waitFor = null, interval = null) {        var aaPawON60 = new GWaitCommand();        aaPawON60["\x4d\x61\x63\x68\x69\x6e\x65"] = this;        aaPawON60["\x57\x61\x69\x74\x46\x6f\x72"] = waitFor;        if (interval != null)            aaPawON60["\x49\x6e\x74\x65\x72\x76\x61\x6c"] = interval;        else            aaPawON60["\x49\x6e\x74\x65\x72\x76\x61\x6c"] = this["\x44\x65\x66\x61\x75\x6c\x74\x49\x64\x6c\x65\x43\x68\x65\x63\x6b\x49\x6e\x74\x65\x72\x76\x61\x6c"];        return aaPawON60;    }    ReportWaitCommandForG(cmd = null, interval = null) {        if (cmd)            this["\x50\x75\x73\x68\x47"](cmd);        return this["\x52\x65\x70\x6f\x72\x74\x65\x72\x47"](this["\x47\x65\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"](cmd, interval));    }    Reporter(cmd) {        var kc61 = this;        return new Promise(function (PgMsZZA62) {            cmd["\x52\x65\x70\x6f\x72\x74\x65\x72"] = PgMsZZA62,                kc61["\x50\x75\x73\x68"](cmd);        });    }    ReporterG(cmd) {        var pFyO63 = this;        return new Promise(function (IFQMSYyhV64) {            cmd["\x52\x65\x70\x6f\x72\x74\x65\x72"] = IFQMSYyhV64,                pFyO63["\x50\x75\x73\x68\x47"](cmd);        });    }    Push_For_Information() {        var UuEWTMCm65 = new Command("\x24\x49");        UuEWTMCm65["\x4d\x61\x63\x68\x69\x6e\x65"] = this;        UuEWTMCm65["\x66\x69\x72\x73\x74\x4c\x69\x6e\x65"] = true;        UuEWTMCm65["\x54\x69\x6d\x65\x54\x6f\x45\x63\x68\x6f"] = 300;        UuEWTMCm65["\x4f\x6e\x4d\x65\x73\x73\x61\x67\x65\x64"] = function (line) {            if (UuEWTMCm65["\x66\x69\x72\x73\x74\x4c\x69\x6e\x65"]) {                UuEWTMCm65["\x4d\x61\x63\x68\x69\x6e\x65"]["\x49\x6e\x66\x6f\x6d\x61\x74\x69\x6f\x6e"] = line["\x73\x75\x62\x73\x74\x72\x69\x6e\x67"](1, line["\x6c\x65\x6e\x67\x74\x68"] - 1)["\x73\x70\x6c\x69\x74"]("\x3a")[2];                UuEWTMCm65["\x66\x69\x72\x73\x74\x4c\x69\x6e\x65"] = false;            }            UuEWTMCm65["\x52\x65\x73\x75\x6c\x74"] = UuEWTMCm65["\x4d\x61\x63\x68\x69\x6e\x65"]["\x49\x6e\x66\x6f\x6d\x61\x74\x69\x6f\x6e"];        };        this["\x50\x75\x73\x68"](UuEWTMCm65);    }    Push_GPointArgs(args) {        var PCjZP$66 = new GCommand();        PCjZP$66["\x47\x50\x6f\x69\x6e\x74"]["\x50\x61\x72\x73\x65\x41\x72\x67\x73"](args);        if (PCjZP$66["\x47\x50\x6f\x69\x6e\x74"]["\x45\x72\x72\x6f\x72"]) {            AlertError("\x46\x65\x65\x64 \x63\x61\x6e \x6e\x6f\x74 \x62\x65 \x6e\x75\x6c\x6c");            return;        }        this["\x50\x75\x73\x68\x47"](PCjZP$66);    }    Push_GPoint(gpoint) {        var cU$WPkJRm67 = new GCommand();        cU$WPkJRm67["\x47\x50\x6f\x69\x6e\x74"] = gpoint;        if (cU$WPkJRm67["\x47\x50\x6f\x69\x6e\x74"]["\x45\x72\x72\x6f\x72"]) {            AlertError("\x46\x65\x65\x64 \x63\x61\x6e \x6e\x6f\x74 \x62\x65 \x6e\x75\x6c\x6c");            return;        }        this["\x50\x75\x73\x68\x47"](cU$WPkJRm67);    }    ReportAxisValue(AxiesName) {        if (this["\x4c\x61\x73\x74"] != null) {            if (this["\x4c\x61\x73\x74"]["\x54\x65\x78\x74"] == '\x3f' && this["\x4c\x61\x73\x74"]["\x45\x63\x68\x6f\x65\x64"] && this["\x53\x74\x61\x74\x75\x73"]["\x49\x73\x49\x64\x6c\x65"]) {                return this["\x53\x74\x61\x74\x75\x73"]["\x41\x78\x69\x73\x56\x61\x6c\x75\x65"](AxiesName);            }        }        var rcS68 = new Command("\x3f");        rcS68["\x4d\x61\x63\x68\x69\x6e\x65"] = this;        rcS68["\x4f\x6e\x4d\x65\x73\x73\x61\x67\x65\x64"] = function (line) {            if (line["\x73\x74\x61\x72\x74\x73\x57\x69\x74\x68"]("\x3c")) {                this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x50\x61\x72\x73\x65"](line);                this["\x52\x65\x73\x75\x6c\x74"] = this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x41\x78\x69\x73\x56\x61\x6c\x75\x65"](AxiesName);            }        };        return this["\x52\x65\x70\x6f\x72\x74\x65\x72"](rcS68)["\x74\x68\x65\x6e"](ret => (ret));    }    ReportIdle() {        if (this["\x4c\x61\x73\x74"] != null) {            if (this["\x4c\x61\x73\x74"]["\x54\x65\x78\x74"] == '\x3f' && this["\x4c\x61\x73\x74"]["\x45\x63\x68\x6f\x65\x64"] && this["\x53\x74\x61\x74\x75\x73"]["\x49\x73\x49\x64\x6c\x65"]) {                return true;            }        }        var lhXg69 = new Command("\x3f");        lhXg69["\x4d\x61\x63\x68\x69\x6e\x65"] = this;        lhXg69["\x4f\x6e\x4d\x65\x73\x73\x61\x67\x65\x64"] = function (line) {            if (line["\x73\x74\x61\x72\x74\x73\x57\x69\x74\x68"]("\x3c")) {                this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x50\x61\x72\x73\x65"](line);                this["\x52\x65\x73\x75\x6c\x74"] = this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x49\x73\x49\x64\x6c\x65"];            }        };        return this["\x52\x65\x70\x6f\x72\x74\x65\x72"](lhXg69)["\x74\x68\x65\x6e"](ret => (ret));    }}class ScratchXYZ {    constructor(dDyRzE70) {        this["\x45\x58\x54\x45\x4e\x53\x49\x4f\x4e\x5f\x49\x44"] = "\x53\x63\x72\x61\x74\x63\x68\x58\x59\x5a";        this["\x6e\x61\x6d\x65"] = "\x53\x63\x72\x61\x74\x63\x68 \x58\x59\x5a";        this["\x64\x65\x63\x6f\x64\x65\x72"] = new TextDecoder;        this["\x65\x6e\x63\x6f\x64\x65\x72"] = new TextEncoder;        this["\x6c\x69\x6e\x65\x42\x75\x66\x66\x65\x72"] = '';        this["\x4d\x61\x63\x68\x69\x6e\x65"] = new Machine();        this["\x72\x75\x6e\x74\x69\x6d\x65"] = dDyRzE70;        this["\x63\x6f\x6d\x6d"] = new dDyRzE70["\x69\x6f\x44\x65\x76\x69\x63\x65\x73"]["\x63\x6f\x6d\x6d"](this["\x45\x58\x54\x45\x4e\x53\x49\x4f\x4e\x5f\x49\x44"]);        this["\x66\x73"] = dDyRzE70["\x69\x6f\x44\x65\x76\x69\x63\x65\x73"]["\x66\x73"];        this["\x72\x75\x6e\x74\x69\x6d\x65"]["\x72\x65\x67\x69\x73\x74\x65\x72\x50\x65\x72\x69\x70\x68\x65\x72\x61\x6c\x45\x78\x74\x65\x6e\x73\x69\x6f\x6e"](this["\x45\x58\x54\x45\x4e\x53\x49\x4f\x4e\x5f\x49\x44"], this);        this["\x6f\x6e\x6d\x65\x73\x73\x61\x67\x65"] = this["\x6f\x6e\x6d\x65\x73\x73\x61\x67\x65"]["\x62\x69\x6e\x64"](this);        this["\x77\x72\x69\x74\x65"] = this["\x77\x72\x69\x74\x65"]["\x62\x69\x6e\x64"](this);        this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x43\x6f\x6d\x5f\x57\x72\x69\x74\x65"] = this["\x77\x72\x69\x74\x65"]["\x62\x69\x6e\x64"](this);        this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x47\x52\x42\x4c"] = this;        this["\x73\x74\x6f\x70\x41\x6c\x6c"] = this["\x73\x74\x6f\x70\x41\x6c\x6c"]["\x62\x69\x6e\x64"](this);        this["\x72\x75\x6e\x74\x69\x6d\x65"]["\x6f\x6e"]("\x50\x52\x4f\x4a\x45\x43\x54\x5f\x53\x54\x4f\x50\x5f\x41\x4c\x4c", this["\x73\x74\x6f\x70\x41\x6c\x6c"]);        Uvvii8 = this["\x72\x75\x6e\x74\x69\x6d\x65"];    }    write(data) {        this["\x63\x6f\x6d\x6d"]["\x77\x72\x69\x74\x65"](data + "\r");    }    onmessage(t) {        var E71 = this["\x64\x65\x63\x6f\x64\x65\x72"]["\x64\x65\x63\x6f\x64\x65"](t);        if (this["\x6c\x69\x6e\x65\x42\x75\x66\x66\x65\x72"] += E71, -1 !== this["\x6c\x69\x6e\x65\x42\x75\x66\x66\x65\x72"]["\x69\x6e\x64\x65\x78\x4f\x66"]("\r\n")) {            var EA$kAANZ72 = this["\x6c\x69\x6e\x65\x42\x75\x66\x66\x65\x72"]["\x73\x70\x6c\x69\x74"]("\r\n");            this["\x6c\x69\x6e\x65\x42\x75\x66\x66\x65\x72"] = EA$kAANZ72["\x70\x6f\x70"]();            for (const l of EA$kAANZ72) {                this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x43\x6f\x6d\x5f\x52\x65\x61\x64"](l["\x74\x72\x69\x6d"]());            }        }    }    getDeviceList() {        return this["\x63\x6f\x6d\x6d"]["\x67\x65\x74\x44\x65\x76\x69\x63\x65\x4c\x69\x73\x74"]();    }    scan() {        this["\x63\x6f\x6d\x6d"]["\x67\x65\x74\x44\x65\x76\x69\x63\x65\x4c\x69\x73\x74"]()["\x74\x68\x65\x6e"]((result) => {            this["\x72\x75\x6e\x74\x69\x6d\x65"]["\x65\x6d\x69\x74"](this["\x72\x75\x6e\x74\x69\x6d\x65"]["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"]["\x50\x45\x52\x49\x50\x48\x45\x52\x41\x4c\x5f\x4c\x49\x53\x54\x5f\x55\x50\x44\x41\x54\x45"], result);        });    }    connect(id) {        var bwy73 = this;        this["\x63\x6f\x6d\x6d"]["\x63\x6f\x6e\x6e\x65\x63\x74"](id)["\x74\x68\x65\x6e"](function (yVm74) {            bwy73["\x63\x6f\x6d\x6d"]["\x6f\x6e\x6d\x65\x73\x73\x61\x67\x65"] = bwy73["\x6f\x6e\x6d\x65\x73\x73\x61\x67\x65"],                bwy73["\x72\x75\x6e\x74\x69\x6d\x65"]["\x65\x6d\x69\x74"](bwy73["\x72\x75\x6e\x74\x69\x6d\x65"]["\x63\x6f\x6e\x73\x74\x72\x75\x63\x74\x6f\x72"]["\x50\x45\x52\x49\x50\x48\x45\x52\x41\x4c\x5f\x43\x4f\x4e\x4e\x45\x43\x54\x45\x44"]);            setTimeout(function () {                bwy73["\x4d\x61\x63\x68\x69\x6e\x65"]["\x43\x6f\x6e\x6e\x65\x63\x74"]();            }, 2e3);        })["\x63\x61\x74\x63\x68"](function (sjameRA75) {            lTuHY$6["\x77\x61\x72\x6e"]("\x63\x6f\x6e\x6e\x65\x63\x74 \x47\x52\x42\x4c \x70\x65\x72\x69\x70\x68\x65\x72\x61\x6c \x66\x61\x69\x6c", sjameRA75);        });    }    disconnect() {        this["\x63\x6f\x6d\x6d"]["\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74"]();        this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x44\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74"]();    }    isConnected() {        return this["\x63\x6f\x6d\x6d"]["\x69\x73\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64"]();    }    stopAll(arg0, stopAll) {    }    sleep(t) {        return new Promise(function (nWGoWRSBj76) {            return setTimeout(nWGoWRSBj76, t);        });    }    get Runable() {        if (!(this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x53\x74\x61\x74\x65"] >= eNSbKbX24["\x43\x6f\x6e\x6e\x65\x63\x74\x65\x64"])) {            return AlertInfo("\x43\x6f\x6e\x6e\x65\x63\x74 \x47\x72\x62\x6c \x31\x2e\x31 \x64\x65\x76\x69\x63\x65 \x66\x69\x72\x73\x74\x21", false);        }        if (this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x53\x74\x61\x74\x65"] > eNSbKbX24["\x52\x75\x6e"]) {            return AlertInfo('\x4d\x61\x63\x68\x69\x6e\x65 \x69\x73 ' + this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x53\x74\x61\x74\x75\x73"]["\x4e\x61\x6d\x65"] + ' \x72\x65\x73\x65\x74 \x64\x65\x76\x69\x63\x65 \x61\x6e\x64 \x63\x6f\x6e\x6e\x65\x63\x74 \x61\x67\x61\x69\x6e\x21', false);        }        return true;    }    Get_Axies(args) {        if (!this["\x52\x75\x6e\x61\x62\x6c\x65"])            return null;        return this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x52\x65\x70\x6f\x72\x74\x41\x78\x69\x73\x56\x61\x6c\x75\x65"](args["\x41\x78\x69\x65\x73\x4e\x61\x6d\x65"]);    }    Get_Idle() {        if (!this["\x52\x75\x6e\x61\x62\x6c\x65"])            return null;        return this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x52\x65\x70\x6f\x72\x74\x49\x64\x6c\x65"]();    }    Goto_XYZ(args) {        if (!this["\x52\x75\x6e\x61\x62\x6c\x65"])            return;        args["\x47"] = NtfDJDZ18['\x24\x4a\x3d'];        if (!args["\x46\x65\x65\x64"])            args["\x46\x65\x65\x64"] = this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x44\x65\x66\x61\x75\x6c\x74\x46\x65\x65\x64"];        else            this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x44\x65\x66\x61\x75\x6c\x74\x46\x65\x65\x64"] = args["\x46\x65\x65\x64"];        this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x50\x75\x73\x68\x5f\x47\x50\x6f\x69\x6e\x74\x41\x72\x67\x73"](args);    }    Goto_XYZ_Gcode(args) {        var BFyk77 = new GCommand();        args["\x47"] = NtfDJDZ18['\x24\x4a\x3d'];        if (!args["\x46\x65\x65\x64"])            args["\x46\x65\x65\x64"] = this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x44\x65\x66\x61\x75\x6c\x74\x46\x65\x65\x64"];        else            this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x44\x65\x66\x61\x75\x6c\x74\x46\x65\x65\x64"] = args["\x46\x65\x65\x64"];        BFyk77["\x47\x50\x6f\x69\x6e\x74"]["\x50\x61\x72\x73\x65\x41\x72\x67\x73"](args);        switch (args["\x52\x65\x70\x6f\x72\x74\x65\x72\x47\x54\x79\x70\x65"]) {            case lhhMO28["\x57\x61\x69\x74"]:                if (this["\x52\x75\x6e\x61\x62\x6c\x65"]) {                    this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x50\x75\x73\x68\x47"](BFyk77);                    BFyk77["\x52\x65\x73\x75\x6c\x74"] = '';                    return this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x52\x65\x70\x6f\x72\x74\x65\x72\x47"](this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x47\x65\x74\x57\x61\x69\x74\x43\x6f\x6d\x6d\x61\x6e\x64"](BFyk77));                }                else {                    return '';                }            default:                break;        }        return BFyk77["\x54\x6f\x43\x6f\x6d"];    }    Send_Gcode(args) {        return;    }    Help_Command(args) {        if (!args["\x43\x6f\x6d\x6d\x61\x6e\x64\x53\x65\x6c"])            return;        switch (args["\x43\x6f\x6d\x6d\x61\x6e\x64\x53\x65\x6c"]) {            case zTh_hWrE26["\x48\x65\x6c\x70"]:                this["\x66\x73"]["\x6f\x70\x65\x6e\x53\x69\x74\x65"]("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x73\x63\x72\x61\x74\x63\x68\x47\x52\x42\x4c\x2e\x63\x6f\x6d", "\x5f\x62\x6c\x61\x6e\x6b");                break;            case zTh_hWrE26["\x43\x61\x6e\x63\x65\x6c\x4d\x6f\x74\x69\x6f\x6e\x73"]:                this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x43\x6c\x65\x61\x72\x43\x6f\x6d\x6d\x61\x6e\x64\x73"]();                this["\x4d\x61\x63\x68\x69\x6e\x65"]["\x50\x75\x73\x68"](new Command(window["\x53\x74\x72\x69\x6e\x67"]["\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65"](0X85)));                break;            default:                break;        }        return;    }    Menu_Axies() { return ImEnumAxis["\x4d\x65\x6e\x75"]; }    getInfo() {        return {            id: this["\x45\x58\x54\x45\x4e\x53\x49\x4f\x4e\x5f\x49\x44"],            name: this["\x6e\x61\x6d\x65"],            color1: '\x23\x30\x46\x42\x44\x38\x43',            color2: '\x23\x30\x44\x41\x35\x37\x41',            menuIconURI: menuIcon,            showStatusButton: true,            blocks: [                { opcode: '\x48\x65\x6c\x70\x5f\x43\x6f\x6d\x6d\x61\x6e\x64',                    blockType: Ei_HADX$2["\x43\x4f\x4d\x4d\x41\x4e\x44"],                    arguments: {                        CommandSel: {                            type: ZyRyN1["\x53\x54\x52\x49\x4e\x47"],                            menu: "\x4d\x65\x6e\x75\x5f\x45\x6e\x75\x6d\x48\x65\x6c\x70\x43\x6f\x6d\x6d\x61\x6e\x64",                            defaultValue: zTh_hWrE26["\x43\x61\x6e\x63\x65\x6c\x4d\x6f\x74\x69\x6f\x6e\x73"]
-                        },                    },                    text: '\x5b\x43\x6f\x6d\x6d\x61\x6e\x64\x53\x65\x6c\x5d' },                { opcode: '\x47\x6f\x74\x6f\x5f\x58\x59\x5a',                    blockType: Ei_HADX$2["\x43\x4f\x4d\x4d\x41\x4e\x44"],                    arguments: {                        GType: {                            type: ZyRyN1["\x53\x54\x52\x49\x4e\x47"],                            menu: "\x4d\x65\x6e\x75\x5f\x47\x54\x79\x70\x65",                            defaultValue: NtfDJDZ18['\x24\x4a\x3d']                        },                        Feed: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"]
-                        },                        Pos0: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        Pos1: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        Pos2: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        Pos3: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        Pos4: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        LocateType: {                            type: ZyRyN1["\x53\x54\x52\x49\x4e\x47"],                            menu: "\x4d\x65\x6e\x75\x5f\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65",                            defaultValue: caH$GdIZ20["\x44\x65\x66\x61\x75\x6c\x74"]
-                        }                    },                    text: Fmm("\x47\x6f\x74\x6f\x5f\x58\x59\x5a", "\x47\x6f\x5b\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65\x5d\x5b\x50\x6f\x73\x30\x5d\x5b\x50\x6f\x73\x31\x5d\x5b\x50\x6f\x73\x32\x5d\x5b\x50\x6f\x73\x33\x5d\x5b\x50\x6f\x73\x34\x5d\x46\x65\x65\x64\x5b\x46\x65\x65\x64\x5d"), },                { opcode: '\x47\x6f\x74\x6f\x5f\x58\x59\x5a\x5f\x47\x63\x6f\x64\x65',                    blockType: Ei_HADX$2["\x52\x45\x50\x4f\x52\x54\x45\x52"],                    arguments: {                        GType: {                            type: ZyRyN1["\x53\x54\x52\x49\x4e\x47"],                            menu: "\x4d\x65\x6e\x75\x5f\x47\x54\x79\x70\x65\x4e\x6f\x6e\x61\x62\x6c\x65",                            defaultValue: NtfDJDZ18['\x24\x4a\x3d']                        },                        Feed: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"]
-                        },                        Pos0: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        Pos1: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        Pos2: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        Pos3: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        Pos4: {                            type: ZyRyN1["\x4e\x55\x4d\x42\x45\x52"],                        },                        LocateType: {                            type: ZyRyN1["\x53\x54\x52\x49\x4e\x47"],                            menu: "\x4d\x65\x6e\x75\x5f\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65",                            defaultValue: caH$GdIZ20["\x44\x65\x66\x61\x75\x6c\x74"]
-                        },                        ReporterGType: {                            type: ZyRyN1["\x53\x54\x52\x49\x4e\x47"],                            menu: "\x4d\x65\x6e\x75\x5f\x52\x65\x70\x6f\x72\x74\x65\x72\x47\x54\x79\x70\x65",                            defaultValue: lhhMO28["\x57\x61\x69\x74"]
-                        },                    },                    text: Fmm("\x47\x6f\x74\x6f\x5f\x58\x59\x5a\x5f\x47\x63\x6f\x64\x65", '\x5b\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65\x5d\x5b\x50\x6f\x73\x30\x5d\x5b\x50\x6f\x73\x31\x5d\x5b\x50\x6f\x73\x32\x5d\x5b\x50\x6f\x73\x33\x5d\x5b\x50\x6f\x73\x34\x5d\x46\x65\x65\x64\x5b\x46\x65\x65\x64\x5d\x5b\x52\x65\x70\x6f\x72\x74\x65\x72\x47\x54\x79\x70\x65\x5d') },                { opcode: '\x53\x65\x6e\x64\x5f\x47\x63\x6f\x64\x65',                    blockType: Ei_HADX$2["\x43\x4f\x4d\x4d\x41\x4e\x44"],                    arguments: {                        Gcode: {                            type: ZyRyN1["\x53\x54\x52\x49\x4e\x47"],                            defaultValue: ""                        }                    },                    text: Fmm("\x53\x65\x6e\x64\x5f\x47\x63\x6f\x64\x65", '\x47\x6f\x5b\x47\x63\x6f\x64\x65\x5d') },                { opcode: '\x47\x65\x74\x5f\x41\x78\x69\x65\x73',                    blockType: Ei_HADX$2["\x52\x45\x50\x4f\x52\x54\x45\x52"],                    arguments: {                        AxiesName: {                            type: ZyRyN1["\x53\x54\x52\x49\x4e\x47"],                            menu: "\x4d\x65\x6e\x75\x5f\x41\x78\x69\x65\x73",                            defaultValue: '\x58'                        }                    },                    text: Fmm("\x47\x65\x74\x5f\x41\x78\x69\x65\x73", '\x5b\x41\x78\x69\x65\x73\x4e\x61\x6d\x65\x5d') },                { opcode: '\x47\x65\x74\x5f\x49\x64\x6c\x65',                    blockType: Ei_HADX$2["\x42\x4f\x4f\x4c\x45\x41\x4e"],                    text: Fmm("\x47\x65\x74\x5f\x49\x64\x6c\x65", '\x49\x44\x4c\x45') },            ],            menus: {                Menu_LocateType: [{                        text: Fm("\x54\x6f"),                        value: caH$GdIZ20["\x44\x65\x66\x61\x75\x6c\x74"]
-                    }, {                        text: Fm("\x4f\x66\x66\x73\x65\x74"),                        value: caH$GdIZ20["\x47\x39\x31"]
-                    }],                Menu_Axies: "\x4d\x65\x6e\x75\x5f\x41\x78\x69\x65\x73",                Menu_ReporterGType: [{                        text: Fm(lhhMO28["\x57\x61\x69\x74"]),                        value: lhhMO28["\x57\x61\x69\x74"]
-                    }, {                        text: Fm(lhhMO28["\x43\x6f\x64\x65"]),                        value: lhhMO28["\x43\x6f\x64\x65"]
-                    }],                Menu_EnumHelpCommand: [{                        text: Fm(zTh_hWrE26["\x48\x65\x6c\x70"]),                        value: zTh_hWrE26["\x48\x65\x6c\x70"]
-                    }, {                        text: Fmm("\x43\x61\x6e\x63\x65\x6c\x4d\x6f\x74\x69\x6f\x6e\x73", '\x43\x61\x6e\x63\x65\x6c \x4d\x6f\x74\x69\x6f\x6e\x73'),                        value: zTh_hWrE26["\x43\x61\x6e\x63\x65\x6c\x4d\x6f\x74\x69\x6f\x6e\x73"]
-                    }],            },            translation_map: {                "\x7a\x68\x2d\x63\x6e": {                    '\x47\x6f\x74\x6f\x5f\x58\x59\x5a': "\u8d70\x5b\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65\x5d\x5b\x50\x6f\x73\x30\x5d\x5b\x50\x6f\x73\x31\x5d\x5b\x50\x6f\x73\x32\x5d\x5b\x50\x6f\x73\x33\x5d\x5b\x50\x6f\x73\x34\x5d\u901f\u5ea6\x5b\x46\x65\x65\x64\x5d",                    '\x47\x6f\x74\x6f\x5f\x58\x59\x5a\x5f\x47\x63\x6f\x64\x65': "\x5b\x4c\x6f\x63\x61\x74\x65\x54\x79\x70\x65\x5d\x5b\x50\x6f\x73\x30\x5d\x5b\x50\x6f\x73\x31\x5d\x5b\x50\x6f\x73\x32\x5d\x5b\x50\x6f\x73\x33\x5d\x5b\x50\x6f\x73\x34\x5d\u901f\u5ea6\x5b\x46\x65\x65\x64\x5d\x5b\x52\x65\x70\x6f\x72\x74\x65\x72\x47\x54\x79\x70\x65\x5d",                    '\x47\x65\x74\x5f\x41\x78\x69\x65\x73': '\x5b\x41\x78\x69\x65\x73\x4e\x61\x6d\x65\x5d',                    '\x53\x65\x6e\x64\x5f\x47\x63\x6f\x64\x65': "\u8d70\x5b\x47\x63\x6f\x64\x65\x5d",                    '\x47\x65\x74\x5f\x49\x64\x6c\x65': "\u7a7a\u95f2",                    '\x54\x6f': '\u5230',                    '\x57\x61\x69\x74': '\u7b49\u5f85',                    '\x4f\x66\x66\x73\x65\x74': '\u504f\u79fb',                    Menu_ReporterGType: {                        "\x57\x61\x69\x74": '\u7b49\u5f85',                        '\x43\x6f\x64\x65': '\u4ee3\u7801'                    },                    Menu_LocateType: {                        '\x54\x6f': '\u5230',                        '\x4f\x66\x66\x73\x65\x74': '\u504f\u79fb'                    },                    Menu_EnumHelpCommand: {                        '\x48\x65\x6c\x70': '\u5e2e\u52a9',                        '\x43\x61\x6e\x63\x65\x6c \x4d\x6f\x74\x69\x6f\x6e\x73': '\u53d6\u6d88\u52a8\u4f5c'                    },                }            }        };    }}module["\x65\x78\x70\x6f\x72\x74\x73"] = ScratchXYZ;
+"use strict";
+var ArgumentType = Scratch.ArgumentType;
+var BlockType = Scratch.BlockType;
+var formatMessage = Scratch.formatMessage;
+function Fmm(ID, Default) {
+    return formatMessage({ id: ID, default: Default });
+}
+function Fm(ID) {
+    return formatMessage({ id: ID, default: ID });
+}
+var Log = Scratch.log;
+var React = Scratch.React;
+var RunTime = null;
+var consoleOn = true;
+function AlertError(text, returnValue = null) {
+    RunTime.emit("showAlert", {
+        type: "error",
+        msg: text
+    });
+    return returnValue;
+}
+function AlertInfo(text, returnValue = null) {
+    RunTime.emit("showAlert", {
+        type: "error",
+        msg: text
+    });
+    return returnValue;
+}
+const menuIcon = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVDhPpZTLTgIxFIY7gMYL6oYFvoJbFoSwIcwEQphhNzyAa3duTXgCn8BHIK6MxoSJe5Y+hbqTeAGjQ+3ftOV0oF7CnzT9Z9p+Pac3ptVoNArKWj6O47yykKeKVk7V1hjW6VT3lWX1en1PWXTaUhbCYAowbcIXlbXJFFyr1baVFVGyPIr6tNromDg+2lTWDROyInPBgiA4UNadpopqJazXW4yxYDTlbGQ0TTkR5xKOyKIo6sNTmJXyr2kCdv/CC+MnLmAp/lNYNkorzewGhGE41zDUKE5Y5pwtRybUarV2wyg0sML4kcsOQtmUzSFFVMMhQ8c5vgErlUrvnueV0/TzfGeneDydzT5uzy7YV7UsxwGWJMkk66GlDeCDQS4d+dMIkQl1u93ndrt9KNMXcqYshNmsNAHjic/fbnyOWmyCc82or1QqG6hN2nrN0lHzRMNQJlf+DFC0uWD0kEtpGIRGfhf0AXu99lduwI8wemxwA3Q0D5fNU/lT6I8wuQ9m/WijC0A9vX40Q6n/wmj/JZhI2bxna8I8wMzjsCYMS7d4zelL4fL6nCnRKwuQKIx9A7vBwl6UCsXuAAAAAElFTkSuQmCC";
+const blockIcon = menuIcon;
+function getEnum(myenum, enumValue) {
+    return myenum[enumValue];
+}
+var EmEcho;
+(function (EmEcho) {
+    EmEcho[EmEcho["Nothing"] = 0] = "Nothing";
+    EmEcho[EmEcho["ok"] = 1] = "ok";
+    EmEcho[EmEcho["error"] = 2] = "error";
+    EmEcho[EmEcho["WaitSomeTime"] = 3] = "WaitSomeTime";
+})(EmEcho || (EmEcho = {}));
+var EmG;
+(function (EmG) {
+    EmG["G0"] = "G0";
+    EmG["G1"] = "G1";
+    EmG["$J="] = "$J=";
+})(EmG || (EmG = {}));
+var EmLoca;
+(function (EmLoca) {
+    EmLoca["Default"] = "Default";
+    EmLoca["G90"] = "G90";
+    EmLoca["G91"] = "G91";
+})(EmLoca || (EmLoca = {}));
+var EmAxis;
+(function (EmAxis) {
+    EmAxis[EmAxis["X"] = 0] = "X";
+    EmAxis[EmAxis["Y"] = 1] = "Y";
+    EmAxis[EmAxis["Z"] = 2] = "Z";
+    EmAxis[EmAxis["A"] = 3] = "A";
+    EmAxis[EmAxis["B"] = 4] = "B";
+})(EmAxis || (EmAxis = {}));
+var EmState;
+(function (EmState) {
+    EmState[EmState["DisConnected"] = 0] = "DisConnected";
+    EmState[EmState["NoneGRBL1_1"] = 1] = "NoneGRBL1_1";
+    EmState[EmState["Connected"] = 2] = "Connected";
+    EmState[EmState["Idle"] = 3] = "Idle";
+    EmState[EmState["Jog"] = 4] = "Jog";
+    EmState[EmState["Home"] = 5] = "Home";
+    EmState[EmState["Run"] = 6] = "Run";
+    EmState[EmState["Hold"] = 7] = "Hold";
+    EmState[EmState["Alarm"] = 8] = "Alarm";
+    EmState[EmState["Check"] = 9] = "Check";
+    EmState[EmState["Door"] = 10] = "Door";
+    EmState[EmState["Sleep"] = 11] = "Sleep";
+})(EmState || (EmState = {}));
+var EmHelpCommand;
+(function (EmHelpCommand) {
+    EmHelpCommand["Help"] = "Help";
+    EmHelpCommand["CancelMotions"] = "CancelMotions";
+})(EmHelpCommand || (EmHelpCommand = {}));
+var EmReporterGType;
+(function (EmReporterGType) {
+    EmReporterGType["Wait"] = "Wait";
+    EmReporterGType["Code"] = "Code";
+})(EmReporterGType || (EmReporterGType = {}));
+class Axis {
+    constructor(axis = EmAxis.X, value = 0) {
+        this.Axis = EmAxis.X;
+        this.Value = 0;
+        this.Axis = axis;
+        this.Value = value;
+    }
+    get AxiesName() {
+        return ImEnumAxis.Names[this.Axis];
+    }
+    set AxiesName(name) {
+        this.Axis = ImEnumAxis.Axis(name);
+    }
+    get Gcode() {
+        if (this.Value != null) {
+            return ImEnumAxis.Name(this.Axis) + this.Value.toString();
+        }
+        return '';
+    }
+    get Copy() {
+        return new Axis(this.Axis, this.Value);
+    }
+}
+class ImEnumAxis {
+    static Name(axies) {
+        if (axies > -1 && axies < this.Axises.length) {
+            return ImEnumAxis.Names[axies];
+        }
+        return null;
+    }
+    static Axis(name) {
+        return EmAxis[name];
+    }
+    static CreateMenu() {
+        var menus = [];
+        for (var i = 0; i < this.Count; i++) {
+            menus.push({
+                text: this.Names[i], value: this.Names[i]
+            });
+        }
+        return menus;
+    }
+}
+ImEnumAxis.Count = Object.keys(EmAxis).length / 2;
+ImEnumAxis.Names = Object.keys(EmAxis).map((k) => EmAxis[k]).filter((v) => typeof v === 'string');
+ImEnumAxis.Axises = Object.keys(EmAxis).map((k) => EmAxis[k]).filter((v) => typeof v === 'number').map(Number);
+ImEnumAxis.Menu = ImEnumAxis.CreateMenu();
+class GPoint {
+    constructor(axisized = false) {
+        this.Axises = new Array();
+        this.G = EmG.G0;
+        this.LocateType = EmLoca.G90;
+        this.Others = null;
+        this.Feed = null;
+        this.Error = null;
+        this.gcode = null;
+        if (axisized)
+            this.Axisize();
+    }
+    get IsError() {
+        return this.Error != null;
+    }
+    Axis(enAxis, force = true) {
+        for (let v of this.Axises) {
+            if (v.Axis == enAxis)
+                return v;
+        }
+        if (!force)
+            return null;
+        var v = new Axis(enAxis);
+        this.Axises.push(v);
+        return v;
+    }
+    Axis_ByName(axiesName, force = true) {
+        var axies = ImEnumAxis.Axis(axiesName);
+        return this.Axis(axies, force);
+    }
+    Axisize() {
+        this.Axises.length = 0;
+        for (var i = 0; i < ImEnumAxis.Count; i++) {
+            this.Axises.push(new Axis(i, 0));
+        }
+    }
+    get Copy() {
+        var copy = new GPoint;
+        for (let v of this.Axises) {
+            copy.Axises.push(v.Copy);
+        }
+        return copy;
+    }
+    set Gcode(gcode) {
+        this.gcode = gcode;
+    }
+    get Gcode() {
+        if (this.gcode != null)
+            return this.gcode;
+        var gode = '';
+        for (let A of this.Axises)
+            gode += ' ' + A.Gcode;
+        if (this.Feed != null && this.Feed > 0)
+            gode += ' F' + this.Feed.toString();
+        if (this.G == EmG['$J='])
+            gode = this.G + gode.substring(1);
+        else
+            gode = this.G + gode;
+        if (this.LocateType != EmLoca.Default)
+            return gode + ' ' + this.LocateType;
+        return gode;
+    }
+    ParseXYZcode(text) {
+        this.gcode = text;
+        this.Axises.length = 0;
+        if (text == null)
+            return;
+        var lns = text.split(' ');
+        if (lns.length > 1) {
+            this.G = lns[0];
+            for (let i = 0; i < lns.length - 1; i++) {
+                var axies = ImEnumAxis.Axis(lns[i].charAt(0));
+                if (axies) {
+                    var loca = new Axis(axies, parseFloat(lns[i].substring(1)));
+                    this.Axises.push(loca);
+                }
+                else {
+                    if (this.Others = null)
+                        this.Others = lns[i];
+                    else
+                        this.Others += " " + lns[i];
+                }
+            }
+        }
+    }
+    ParseArgs(args) {
+        args.Valid = false;
+        this.G = args.GType;
+        if (!this.G)
+            this.G = EmG['$J='];
+        this.LocateType = args.LocateType;
+        this.Feed = args.Feed;
+        if (this.G == EmG['$J='] || this.G == EmG.G1) {
+            if (!args.Feed || args.Feed < 1) {
+                this.Error = "$J= or G1 command need Feed";
+            }
+        }
+        for (var i = 0; i < ImEnumAxis.Count; i++) {
+            var pos;
+            eval("pos = args.Pos" + i.toString());
+            if (pos != '') {
+                this.Axis(i).Value = parseFloat(pos);
+                args.Valid = true;
+            }
+        }
+        this.gcode = this.Gcode;
+        return args.Valid;
+    }
+}
+class Command {
+    constructor(text = null) {
+        this.Text = null;
+        this.Echoed = false;
+        this.EchoType = EmEcho.ok;
+        this.Echoes = new Array();
+        this.TimeToEcho = 500;
+        this.Reporter = null;
+        this.Result = null;
+        if (text == null)
+            return;
+        this.Text = text;
+    }
+    get ToCom() { return this.Text; }
+    Info() { console.info("Command: ", this.Text, typeof this); }
+    OnMessaged(line) { }
+    Message(line) { this.Echoes.push(line); this.OnMessaged(line); }
+    OnEchoed() { }
+    Echo(reportIt = true) {
+        this.Echoed = true;
+        this.OnEchoed();
+        if (consoleOn)
+            console.info(this.ToCom, " >> ", this.OutputEchoesToConsole());
+        if (reportIt)
+            this.Report();
+    }
+    OutputEchoesToConsole() {
+        if (this.Result == null) {
+            return this.Echoes.join(" > ");
+        }
+        else {
+            return this.Result, this.Echoes.join(" > ");
+        }
+    }
+    Report(force = false) {
+        if (this.Reporter) {
+            this.Reporter(this.Result);
+            this.Reporter = null;
+        }
+    }
+    OnTimeOut() { }
+}
+class GCommand extends Command {
+    constructor(gcode = null) {
+        super(gcode);
+        this.GPoint = new GPoint();
+    }
+    get ToCom() {
+        if (this.Text != null) {
+            return this.Text;
+        }
+        else {
+            return this.GPoint.Gcode;
+        }
+    }
+}
+class GWaitCommand extends GCommand {
+    constructor() {
+        super('?');
+        this.Interval = 50;
+        this.Idle = false;
+    }
+    OnMessaged(line) {
+        if (line.startsWith("<")) {
+            this.Machine.Status.Parse(line);
+            if (this.Machine.Status.State == EmState.Idle || this.Machine.Status.State == EmState.Sleep) {
+                this.Idle = true;
+                this.Result = 0;
+            }
+        }
+    }
+    OutputEchoesToConsole() {
+        if (this.Idle) {
+            return "Idle";
+        }
+        else
+            return "waiting";
+    }
+    Report(force = false) {
+        if (this.Idle || force) {
+            if (this.WaitFor)
+                this.Result = this.WaitFor.Result;
+            super.Report();
+        }
+    }
+}
+class MachineStatus {
+    constructor() {
+        this.Line = "";
+        this.Position = new GPoint(true);
+        this.WPosition = new GPoint(true);
+        this.OVPosition = new GPoint(true);
+        this.Feed0 = 0;
+        this.Feed1 = 1;
+        this.State = EmState.Idle;
+    }
+    get Name() { return getEnum(EmState, this.State); }
+    get IsIdle() { return this.State == EmState.Idle; }
+    Parse(line) {
+        this.Line = line;
+        var lns = line.substring(1, line.length - 2).split("|");
+        var xyz = lns[1].substring(lns[1].indexOf(':') + 1).split(',');
+        this.State = EmState[lns[0]];
+        for (var i = 0; i < ImEnumAxis.Count; i++) {
+            this.Position.Axises[i].Value = parseFloat(xyz[i]);
+        }
+        if (lns.length > 2) {
+            var fs = lns[2].split(':')[1].split(',');
+            this.Feed0 = parseInt(fs[0]);
+            if (fs.length > 1)
+                this.Feed1 = parseInt(fs[1]);
+        }
+        if (lns.length > 3) {
+            var name_Poses = lns[3].split(':');
+            var point = this.WPosition;
+            if (name_Poses[0] == 'OV')
+                point = this.OVPosition;
+            var poses = name_Poses[1].split(',');
+            for (var i = 0; i < poses.length; i++) {
+                point.Axises[i].Value = parseFloat(poses[i]);
+            }
+        }
+    }
+    AxisValue(AxiesName) {
+        var loc = this.Position.Axis_ByName(AxiesName, false);
+        if (loc)
+            return loc.Value;
+        return 0;
+    }
+}
+class Machine {
+    constructor() {
+        this.Version = '';
+        this.MSG = '';
+        this.N0 = '';
+        this.N1 = '';
+        this.Infomation = '';
+        this.DefaultFeed = 5000;
+        this.DefaultIdleCheckInterval = 100;
+        this.Status = new MachineStatus();
+        this.Commands = new Array();
+        this.GCommands = new Array();
+        this.RunedCommandCount = 0;
+        this.Last = null;
+        this.current = null;
+        this.CurrentWaitCommand = null;
+        this.CancellingMotion = true;
+    }
+    get Connected() { return this.Status.State > EmState.DisConnected; }
+    get Current() { return this.current; }
+    set Current(cmd) {
+        this.Last = this.current;
+        this.current = cmd;
+    }
+    Com_Write(data) { }
+    Com_Read(line) {
+        if (this.RunedCommandCount == 0) {
+            if (this.Version == '') {
+                this.Version = line;
+                if (consoleOn)
+                    console.info(line);
+                return;
+            }
+            if (line.startsWith('[MSG:')) {
+                this.MSG = line;
+                if (consoleOn)
+                    console.info(line);
+                return;
+            }
+            if (this.N0 == '')
+                this.N0 = line.substring(1, line.length - 3);
+            else
+                this.N1 = line.substring(1, line.length - 3);
+            if (consoleOn)
+                console.info(line);
+            return;
+        }
+        if (!this.Current) {
+            if (consoleOn)
+                console.info(line);
+        }
+        else {
+            switch (this.Current.EchoType) {
+                case EmEcho.ok:
+                    if (line == "ok") {
+                        this.Current.Echo();
+                        this.TryPopWrite();
+                        return;
+                    }
+                    else if (line.startsWith("error")) {
+                        AlertError(line);
+                        console.error(line);
+                        this.current.Info();
+                        this.Current.Echo();
+                        this.Current = null;
+                        this.TryPopWrite();
+                        return;
+                    }
+                    break;
+                default:
+                    break;
+            }
+            this.Current.Message(line);
+        }
+    }
+    TryPop() {
+        if (this.Commands.length > 0) {
+            return this.Commands.shift();
+        }
+        if (this.CurrentWaitCommand) {
+            if (this.CurrentWaitCommand.Echoed) {
+                if (this.CurrentWaitCommand.Idle) {
+                    this.CurrentWaitCommand = null;
+                }
+                else {
+                    this.CurrentWaitCommand.Echoed = false;
+                    var e = this;
+                    var waitcommand = this.CurrentWaitCommand;
+                    setTimeout(function () {
+                        if (!waitcommand.Idle)
+                            e.Push(waitcommand);
+                    }, this.CurrentWaitCommand.Interval);
+                    return;
+                }
+            }
+            else {
+                return;
+            }
+        }
+        if (this.GCommands.length > 0) {
+            var cmd = this.GCommands.shift();
+            if (cmd instanceof GWaitCommand) {
+                this.CurrentWaitCommand = cmd;
+                return cmd;
+            }
+            else {
+                return cmd;
+            }
+        }
+        return null;
+    }
+    TryPopWrite() {
+        if (this.Current == null) {
+            var cmd = this.TryPop();
+            if (cmd != null) {
+                this.RunedCommandCount++;
+                this.Current = cmd;
+                this.Com_Write(this.Current.ToCom);
+                switch (this.Current.EchoType) {
+                    case EmEcho.Nothing:
+                        this.Current.Echo();
+                        this.Current = null;
+                        this.TryPopWrite();
+                        break;
+                    case EmEcho.WaitSomeTime:
+                        var e = this;
+                        setTimeout(function () {
+                            e.current.OnTimeOut();
+                            e.Current.Echo();
+                            e.Current = null;
+                            e.TryPopWrite();
+                        }, e.Current.TimeToEcho);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+        else if (this.Current.Echoed) {
+            this.Current = null;
+            this.TryPopWrite();
+        }
+    }
+    ClearCommands() {
+        for (let cmd of this.GCommands) {
+            if (cmd)
+                cmd.Report(true);
+        }
+        this.GCommands.length = 0;
+        for (let cmd of this.Commands) {
+            if (cmd)
+                cmd.Report(true);
+        }
+        this.Commands.length = 0;
+        if (this.CurrentWaitCommand) {
+            this.CurrentWaitCommand.Idle = true;
+            this.CurrentWaitCommand.Report(true);
+            this.CurrentWaitCommand = null;
+        }
+        if (this.current) {
+            this.current.Report(true);
+            this.current = null;
+        }
+        this.RunedCommandCount = 0;
+    }
+    Connect() {
+        if (this.Version.indexOf("Grbl 1.1") < 0) {
+            this.Status.State = EmState.NoneGRBL1_1;
+            return;
+        }
+        this.Status.State = EmState.Connected;
+        this.Push_For_Information();
+        if (this.MSG.indexOf("to unlock") > 0) {
+            this.Push(new Command("$X"));
+            this.MSG = '';
+        }
+    }
+    Disconnect() {
+        this.Version = '';
+        this.MSG = '';
+        this.Infomation = '';
+        this.N0 = '';
+        this.N1 = '';
+        this.Status.State = EmState.DisConnected;
+        this.ClearCommands();
+    }
+    Push(cmd) {
+        this.Commands.push(cmd);
+        this.TryPopWrite();
+    }
+    PushG(gcmd) {
+        this.GCommands.push(gcmd);
+        this.TryPopWrite();
+    }
+    GetWaitCommand(waitFor = null, interval = null) {
+        var waitcommand = new GWaitCommand();
+        waitcommand.Machine = this;
+        waitcommand.WaitFor = waitFor;
+        if (interval != null)
+            waitcommand.Interval = interval;
+        else
+            waitcommand.Interval = this.DefaultIdleCheckInterval;
+        return waitcommand;
+    }
+    ReportWaitCommandForG(cmd = null, interval = null) {
+        if (cmd)
+            this.PushG(cmd);
+        return this.ReporterG(this.GetWaitCommand(cmd, interval));
+    }
+    Reporter(cmd) {
+        var e = this;
+        return new Promise(function (r) {
+            cmd.Reporter = r,
+                e.Push(cmd);
+        });
+    }
+    ReporterG(cmd) {
+        var e = this;
+        return new Promise(function (r) {
+            cmd.Reporter = r,
+                e.PushG(cmd);
+        });
+    }
+    Push_For_Information() {
+        var cmd = new Command("$I");
+        cmd.Machine = this;
+        cmd.firstLine = true;
+        cmd.TimeToEcho = 300;
+        cmd.OnMessaged = function (line) {
+            if (cmd.firstLine) {
+                cmd.Machine.Infomation = line.substring(1, line.length - 1).split(":")[2];
+                cmd.firstLine = false;
+            }
+            cmd.Result = cmd.Machine.Infomation;
+        };
+        this.Push(cmd);
+    }
+    Push_GPointArgs(args) {
+        var gcmd = new GCommand();
+        gcmd.GPoint.ParseArgs(args);
+        if (gcmd.GPoint.Error) {
+            AlertError("Feed can not be null");
+            return;
+        }
+        this.PushG(gcmd);
+    }
+    Push_GPoint(gpoint) {
+        var gcmd = new GCommand();
+        gcmd.GPoint = gpoint;
+        if (gcmd.GPoint.Error) {
+            AlertError("Feed can not be null");
+            return;
+        }
+        this.PushG(gcmd);
+    }
+    ReportAxisValue(AxiesName) {
+        if (this.Last != null) {
+            if (this.Last.Text == '?' && this.Last.Echoed && this.Status.IsIdle) {
+                return this.Status.AxisValue(AxiesName);
+            }
+        }
+        var cmd = new Command("?");
+        cmd.Machine = this;
+        cmd.OnMessaged = function (line) {
+            if (line.startsWith("<")) {
+                this.Machine.Status.Parse(line);
+                this.Result = this.Machine.Status.AxisValue(AxiesName);
+            }
+        };
+        return this.Reporter(cmd).then(ret => (ret));
+    }
+    ReportIdle() {
+        if (this.Last != null) {
+            if (this.Last.Text == '?' && this.Last.Echoed && this.Status.IsIdle) {
+                return true;
+            }
+        }
+        var cmd = new Command("?");
+        cmd.Machine = this;
+        cmd.OnMessaged = function (line) {
+            if (line.startsWith("<")) {
+                this.Machine.Status.Parse(line);
+                this.Result = this.Machine.Status.IsIdle;
+            }
+        };
+        return this.Reporter(cmd).then(ret => (ret));
+    }
+}
+class ScratchXYZ {
+    constructor(runtime) {
+        this.EXTENSION_ID = "ScratchXYZ";
+        this.name = "Scratch XYZ";
+        this.decoder = new TextDecoder;
+        this.encoder = new TextEncoder;
+        this.lineBuffer = '';
+        this.Machine = new Machine();
+        this.runtime = runtime;
+        this.comm = new runtime.ioDevices.comm(this.EXTENSION_ID);
+        this.fs = runtime.ioDevices.fs;
+        this.runtime.registerPeripheralExtension(this.EXTENSION_ID, this);
+        this.onmessage = this.onmessage.bind(this);
+        this.write = this.write.bind(this);
+        this.Machine.Com_Write = this.write.bind(this);
+        this.Machine.GRBL = this;
+        this.stopAll = this.stopAll.bind(this);
+        this.runtime.on("PROJECT_STOP_ALL", this.stopAll);
+        RunTime = this.runtime;
+    }
+    write(data) {
+        this.comm.write(data + "\r");
+    }
+    onmessage(t) {
+        var e = this.decoder.decode(t);
+        if (this.lineBuffer += e, -1 !== this.lineBuffer.indexOf("\r\n")) {
+            var lines = this.lineBuffer.split("\r\n");
+            this.lineBuffer = lines.pop();
+            for (const l of lines) {
+                this.Machine.Com_Read(l.trim());
+            }
+        }
+    }
+    getDeviceList() {
+        return this.comm.getDeviceList();
+    }
+    scan() {
+        this.comm.getDeviceList().then((result) => {
+            this.runtime.emit(this.runtime.constructor.PERIPHERAL_LIST_UPDATE, result);
+        });
+    }
+    connect(id) {
+        var e = this;
+        this.comm.connect(id).then(function (t) {
+            e.comm.onmessage = e.onmessage,
+                e.runtime.emit(e.runtime.constructor.PERIPHERAL_CONNECTED);
+            setTimeout(function () {
+                e.Machine.Connect();
+            }, 2e3);
+        }).catch(function (t) {
+            Log.warn("connect GRBL peripheral fail", t);
+        });
+    }
+    disconnect() {
+        this.comm.disconnect();
+        this.Machine.Disconnect();
+    }
+    isConnected() {
+        return this.comm.isConnected();
+    }
+    stopAll(arg0, stopAll) {
+    }
+    sleep(t) {
+        return new Promise(function (e) {
+            return setTimeout(e, t);
+        });
+    }
+    get Runable() {
+        if (!(this.Machine.Status.State >= EmState.Connected)) {
+            return AlertInfo("Connect Grbl 1.1 device first!", false);
+        }
+        if (this.Machine.Status.State > EmState.Run) {
+            return AlertInfo('Machine is ' + this.Machine.Status.Name + ' reset device and connect again!', false);
+        }
+        return true;
+    }
+    Get_Axies(args) {
+        if (!this.Runable)
+            return null;
+        return this.Machine.ReportAxisValue(args.AxiesName);
+    }
+    Get_Idle() {
+        if (!this.Runable)
+            return null;
+        return this.Machine.ReportIdle();
+    }
+    Goto_XYZ(args) {
+        if (!this.Runable)
+            return;
+        args.G = EmG['$J='];
+        if (!args.Feed)
+            args.Feed = this.Machine.DefaultFeed;
+        else
+            this.Machine.DefaultFeed = args.Feed;
+        this.Machine.Push_GPointArgs(args);
+    }
+    Goto_XYZ_Gcode(args) {
+        var gcmd = new GCommand();
+        args.G = EmG['$J='];
+        if (!args.Feed)
+            args.Feed = this.Machine.DefaultFeed;
+        else
+            this.Machine.DefaultFeed = args.Feed;
+        gcmd.GPoint.ParseArgs(args);
+        switch (args.ReporterGType) {
+            case EmReporterGType.Wait:
+                if (this.Runable) {
+                    this.Machine.PushG(gcmd);
+                    gcmd.Result = '';
+                    return this.Machine.ReporterG(this.Machine.GetWaitCommand(gcmd));
+                }
+                else {
+                    return '';
+                }
+            default:
+                break;
+        }
+        return gcmd.ToCom;
+    }
+    Send_Gcode(args) {
+        return;
+    }
+    Help_Command(args) {
+        if (!args.CommandSel)
+            return;
+        switch (args.CommandSel) {
+            case EmHelpCommand.Help:
+                this.fs.openSite("https://www.scratchGRBL.com", "_blank");
+                break;
+            case EmHelpCommand.CancelMotions:
+                this.Machine.ClearCommands();
+                this.Machine.Push(new Command(String.fromCharCode(0X85)));
+                break;
+            default:
+                break;
+        }
+        return;
+    }
+    Menu_Axies() { return ImEnumAxis.Menu; }
+    getInfo() {
+        return {
+            id: this.EXTENSION_ID,
+            name: this.name,
+            color1: '#0FBD8C',
+            color2: '#0DA57A',
+            menuIconURI: menuIcon,
+            showStatusButton: true,
+            blocks: [
+                { opcode: 'Help_Command',
+                    blockType: BlockType.COMMAND,
+                    arguments: {
+                        CommandSel: {
+                            type: ArgumentType.STRING,
+                            menu: "Menu_EnumHelpCommand",
+                            defaultValue: EmHelpCommand.CancelMotions
+                        },
+                    },
+                    text: '[CommandSel]' },
+                { opcode: 'Goto_XYZ',
+                    blockType: BlockType.COMMAND,
+                    arguments: {
+                        GType: {
+                            type: ArgumentType.STRING,
+                            menu: "Menu_GType",
+                            defaultValue: EmG['$J=']
+                        },
+                        Feed: {
+                            type: ArgumentType.NUMBER
+                        },
+                        Pos0: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        Pos1: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        Pos2: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        Pos3: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        Pos4: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        LocateType: {
+                            type: ArgumentType.STRING,
+                            menu: "Menu_LocateType",
+                            defaultValue: EmLoca.Default
+                        }
+                    },
+                    text: Fmm("Goto_XYZ", "Go[LocateType][Pos0][Pos1][Pos2][Pos3][Pos4]Feed[Feed]"), },
+                { opcode: 'Goto_XYZ_Gcode',
+                    blockType: BlockType.REPORTER,
+                    arguments: {
+                        GType: {
+                            type: ArgumentType.STRING,
+                            menu: "Menu_GTypeNonable",
+                            defaultValue: EmG['$J=']
+                        },
+                        Feed: {
+                            type: ArgumentType.NUMBER
+                        },
+                        Pos0: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        Pos1: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        Pos2: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        Pos3: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        Pos4: {
+                            type: ArgumentType.NUMBER,
+                        },
+                        LocateType: {
+                            type: ArgumentType.STRING,
+                            menu: "Menu_LocateType",
+                            defaultValue: EmLoca.Default
+                        },
+                        ReporterGType: {
+                            type: ArgumentType.STRING,
+                            menu: "Menu_ReporterGType",
+                            defaultValue: EmReporterGType.Wait
+                        },
+                    },
+                    text: Fmm("Goto_XYZ_Gcode", '[LocateType][Pos0][Pos1][Pos2][Pos3][Pos4]Feed[Feed][ReporterGType]') },
+                { opcode: 'Send_Gcode',
+                    blockType: BlockType.COMMAND,
+                    arguments: {
+                        Gcode: {
+                            type: ArgumentType.STRING,
+                            defaultValue: ""
+                        }
+                    },
+                    text: Fmm("Send_Gcode", 'Go[Gcode]') },
+                { opcode: 'Get_Axies',
+                    blockType: BlockType.REPORTER,
+                    arguments: {
+                        AxiesName: {
+                            type: ArgumentType.STRING,
+                            menu: "Menu_Axies",
+                            defaultValue: 'X'
+                        }
+                    },
+                    text: Fmm("Get_Axies", '[AxiesName]') },
+                { opcode: 'Get_Idle',
+                    blockType: BlockType.BOOLEAN,
+                    text: Fmm("Get_Idle", 'IDLE') },
+            ],
+            menus: {
+                Menu_LocateType: [{
+                        text: Fm("To"),
+                        value: EmLoca.Default
+                    }, {
+                        text: Fm("Offset"),
+                        value: EmLoca.G91
+                    }],
+                Menu_Axies: "Menu_Axies",
+                Menu_ReporterGType: [{
+                        text: Fm(EmReporterGType.Wait),
+                        value: EmReporterGType.Wait
+                    }, {
+                        text: Fm(EmReporterGType.Code),
+                        value: EmReporterGType.Code
+                    }],
+                Menu_EnumHelpCommand: [{
+                        text: Fm(EmHelpCommand.Help),
+                        value: EmHelpCommand.Help
+                    }, {
+                        text: Fmm("CancelMotions", 'Cancel Motions'),
+                        value: EmHelpCommand.CancelMotions
+                    }],
+            },
+            translation_map: {
+                "zh-cn": {
+                    'Goto_XYZ': "走[LocateType][Pos0][Pos1][Pos2][Pos3][Pos4]速度[Feed]",
+                    'Goto_XYZ_Gcode': "[LocateType][Pos0][Pos1][Pos2][Pos3][Pos4]速度[Feed][ReporterGType]",
+                    'Get_Axies': '[AxiesName]',
+                    'Send_Gcode': "走[Gcode]",
+                    'Get_Idle': "空闲",
+                    'To': '到',
+                    'Wait': '等待',
+                    'Offset': '偏移',
+                    Menu_ReporterGType: {
+                        "Wait": '等待',
+                        'Code': '代码'
+                    },
+                    Menu_LocateType: {
+                        'To': '到',
+                        'Offset': '偏移'
+                    },
+                    Menu_EnumHelpCommand: {
+                        'Help': '帮助',
+                        'Cancel Motions': '取消动作'
+                    },
+                }
+            }
+        };
+    }
+}
+module.exports = ScratchXYZ;
